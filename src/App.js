@@ -89,7 +89,6 @@ function Form({ onAddItems }) {
 }
 
 function PackingList({ items, onToggleItem,onClearList }) {
-  debugger;
   const [sortBy, setSortBy] = useState("Packed");
 
   let sortedItems;
