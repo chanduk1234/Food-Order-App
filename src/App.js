@@ -64,7 +64,7 @@ function Form({ onAddItems }) {
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
-      <h3>What you need for your trip?</h3>
+      <h3>What you need for your trip (items)?</h3>
       <select
         value={quantity}
         onChange={(e) => setQuantity(Number(e.target.value))}
@@ -113,7 +113,7 @@ function PackingList({ items, onToggleItem,onClearList }) {
       <div className="actions">
         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
           <option value="input">Sort by input order</option>
-          <option value="description">Sort by description</option>
+          <option value="description">Sort by description1</option>
           <option value="packed">Sort by packed status</option>
         </select>
         <button onClick={onClearList}>Clear list</button>
